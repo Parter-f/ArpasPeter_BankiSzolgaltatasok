@@ -18,11 +18,15 @@ public class Szamla extends BankiSzolgaltatas{
 
     }
 
-   // public boolean kivesz(int osszeg){
+   public boolean kivesz(int osszeg){
 
-   // return();
+   if (osszeg < aktualisEgyenleg){
+       aktualisEgyenleg -= osszeg;
+       return true;
+   }
+   return false;
 
-   // }
+   }
 
 
 
