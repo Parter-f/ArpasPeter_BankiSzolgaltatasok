@@ -15,9 +15,7 @@ public class Kartya extends BankiSzolgaltatas{
         return kartyaSzam;
     }
 
-    public Kartya(String tulajdonos) {
-        super(tulajdonos);
-    }
+
 
     public boolean vasralas(int osszeg){
 
