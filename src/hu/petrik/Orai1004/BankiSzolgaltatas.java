@@ -11,4 +11,7 @@ public class BankiSzolgaltatas {
     public String getTulajdonos() {
         return Tulajdonos;
     }
+
+
+
 }
