@@ -6,7 +6,7 @@ public class HitelSzamla extends Szamla{
 
 
 
-    public HitelSzamla(String tulajdonos , int hitelKeret) {
+    public HitelSzamla(Tulajdonos tulajdonos , int hitelKeret) {
         super(tulajdonos);
         this.hitelKeret = hitelKeret;
     }
