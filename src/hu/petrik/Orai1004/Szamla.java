@@ -1,6 +1,6 @@
 package hu.petrik.Orai1004;
 
-public class Szamla extends BankiSzolgaltatas{
+public abstract class Szamla extends BankiSzolgaltatas{
 
     protected int aktualisEgyenleg;
 
@@ -18,15 +18,9 @@ public class Szamla extends BankiSzolgaltatas{
 
     }
 
-   public boolean kivesz(int osszeg){
+   public abstract boolean kivesz(int osszeg);
 
-   if (osszeg < aktualisEgyenleg){
-       aktualisEgyenleg -= osszeg;
-       return true;
-   }
-   return false;
 
-   }
 
    public Kartya ujKartya(String kartyaszam){
         return new Kartya(this.getTulajdonos() , this , kartyaszam);
