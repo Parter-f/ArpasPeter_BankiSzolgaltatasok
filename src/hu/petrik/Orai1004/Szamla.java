@@ -8,7 +8,7 @@ public class Szamla extends BankiSzolgaltatas{
         return aktualisEgyenleg;
     }
 
-    public Szamla(String tulajdonos) {
+    public Szamla(Tulajdonos tulajdonos) {
         super(tulajdonos);
     }
 

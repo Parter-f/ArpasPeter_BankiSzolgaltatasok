@@ -2,13 +2,13 @@ package hu.petrik.Orai1004;
 
 public class BankiSzolgaltatas {
 
-    private String Tulajdonos;
+    private Tulajdonos Tulajdonos;
 
-    public BankiSzolgaltatas(String tulajdonos) {
+    public BankiSzolgaltatas(Tulajdonos tulajdonos) {
         Tulajdonos = tulajdonos;
     }
 
-    public String getTulajdonos() {
+    public Tulajdonos getTulajdonos() {
         return Tulajdonos;
     }
 

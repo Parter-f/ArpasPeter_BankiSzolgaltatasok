@@ -28,7 +28,7 @@ public class MegtakaritasiSzamla extends Szamla{
 
     }
 
-    public MegtakaritasiSzamla(String tulajdonos) {
+    public MegtakaritasiSzamla(Tulajdonos tulajdonos) {
         super(tulajdonos);
     }
 }
